@@ -1,0 +1,18 @@
+.indented{
+    padding-left: 30px;
+}
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    max-width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+@media (max-device-width: 414px{
+    body {
+        max-width: 100%;
+    }
+}
