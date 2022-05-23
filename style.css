@@ -18,6 +18,17 @@
 
 }
 
+.quote{
+    background-color: #FFE45E;
+    border: dashed; 
+    border-color: #FF6392; 
+    border-width: 20px; 
+    color: #42464C; 
+    padding-left: 20px; 
+    padding: 20px; 
+    margin:20px;
+}
+
 a:link {
     background-color: #279AF1;
     color: #F7F7F7;
@@ -48,6 +59,10 @@ body {
     text-align: justify;
 }
 
+footer {
+    padding-bottom: 30px;
+}
+
 h1 {
     color: #42464C;
     font-size: 35px;
@@ -76,11 +91,20 @@ h3 {
     padding-left: 2px;
     padding-right: 2px;
 }
+hr {
+    align: center;
+    color: #279AF1;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: 80%;
+}
 ul {
     color: #279AF1;
     list-style-type: disc;
-    margin-bottom: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 414px{
