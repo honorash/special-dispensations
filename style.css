@@ -1,17 +1,89 @@
 .indented{
     padding-left: 30px;
+    padding-right: 30px;
 }
+
+.artist{
+    background-color: #42464C;
+    color: #F7F7F7;
+    padding: 10px;
+}
+
+.list{
+    font-size: 20px !important;
+    font-weight:  bold;
+    line-height: 1.36 !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+a:link {
+    background-color: #279AF1;
+    color: #F7F7F7;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+}
+
+a:visited {
+    background-color: #FF6392;
+    color: #F7F7F7;
+}
+
+a:hover {
+    background-color: #FFE45E;
+    color: #42464C;
+}
+
 body {
-    background-color: #fff;
-    color: #000;
+    background-color: #F7F7F7;
+    color: #42464C;
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
+    line-height: 1.5;
     max-width: 600px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
 }
-@media (max-device-width: 414px{
+
+h1 {
+    color: #42464C;
+    font-size: 35px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    margin-top:  5px;
+    margin-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+h2 {
+    background-color: #FFE45E;
+    color: #42464C;
+    font-size: 30px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #42464C;
+    font-size: 20px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+ul {
+    color: #279AF1;
+    list-style-type: disc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 414px{
     body {
         max-width: 100%;
     }
